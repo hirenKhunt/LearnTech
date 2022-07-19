@@ -1,0 +1,410 @@
+
+    body{
+        margin: 0px;
+        margin-top: -20px;
+        background-image: url("img/background.jpg");
+        background-attachment:scroll;
+        background-repeat: no-repeat;
+        background-size:initial;
+    }
+
+    #d1 ul{
+    margin-left: 250px;
+    list-style:none;
+    margin-top: 40px;  
+    /* size: 50px; */
+}
+
+#d1{
+    border-style: solid;
+    border-width: 0px;
+    height: 120px;
+    background-color: rgb(29, 32, 59); 
+    margin-top: 0px; 
+    width: 100%;
+    position: fixed;   
+    top: -20px;
+    z-index: 99;
+}
+
+#d1 ul li{
+    color: white;
+    /* background-color: rgb(83, 142, 190); */
+    text-align: center;
+    width: 120px;
+    padding-top: 17px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+    border: 0px red solid;
+    height: 30px;
+    float: left;
+    padding-right: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#d1 ul li:hover{
+    color: floralwhite;
+    background-color: rgb(12, 70, 109);
+    
+}
+
+#b1{
+    font-size: 25px; 
+    color:black; 
+    background-color: rgb(66, 146, 34); 
+    margin-left: 170px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    cursor: pointer;
+}
+#b1:hover{
+    background-color: darkcyan;
+}
+
+.content{
+    border: 1px rgb(29, 32, 59) solid;
+    margin-top: 120px;
+    /* margin: 10px 100px; */
+    /* padding: 10px 10px; */
+    /* width: 100%; */
+    height: 4200px;
+    /* z-index: -1; */
+    position: relative;
+    
+}
+#footer{
+    /* margin-top: 500px; */
+    /* position: fixed; */
+
+}
+
+
+#foot{
+    padding-bottom: 25px;
+    padding-left: 650px;
+    padding-right: 650px;
+    /* margin-left: 45%; */
+    /* background-color: rgb(29, 32, 59) ; */
+}
+
+div.footdv1{
+    margin-left: 100px;
+    /* border: 0px solid red; */
+    border-width: 2px;
+    width: 250px;
+    height: 240px;
+    float: left;
+    /* margin: 10px; */
+    color: white;
+    text-align: center;
+    /* font-size: 30px; */
+} 
+
+div.prv{
+    margin-top:10px;
+    color: white;
+    border:0px solid white;
+    width: 100%;
+  text-align: center;
+    
+}
+
+a.link{ 
+	display:block; 
+    color: white;
+    font-size: 19px;
+
+}
+
+.logo{
+    float: left;
+    margin-top: 10px;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+section#sec1 {
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 450px;
+    font-size: 30px;
+
+}
+
+#secB1{
+        width: 50%;
+        height: 50px;
+        background: #172035;
+        color: white;
+        font-size: 30px;
+        border: none;
+        /* font-family: "Times New Roman", Times, serif; */
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+}
+
+div.course {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 1100px;
+    left: 100px;
+}
+
+div.course2 {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 1100px;
+    left: 550px;
+}
+
+div.course3 {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 1100px;
+    left: 1000px;
+}
+
+h6 {
+	font-size: 1em;
+}
+
+#hh1{
+    margin-top: 950px;
+    font-size: 40px;
+}
+
+
+section#about {
+    width: 100%;
+    height: 509px;
+    background: #252525;
+    position: absolute;
+    top: 1800px;
+    left: 0;
+}
+
+div.about {
+	color: white;
+	text-align: center;
+    font-size: 40px;
+}
+
+div.students {
+    width: 300px;
+    height: 200px;
+    background: black;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 212px;
+    left: 70px;
+    font-size: 25px;
+}
+
+div.reviews {
+    width: 300px;
+    height: 200px;
+    background: black;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 212px;
+    left: 420px;
+    font-size: 25px;
+
+}
+
+div.courses {
+    width: 300px;
+    height: 200px;
+    background: black;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 212px;
+    left: 770px;
+    font-size: 25px;
+
+}
+
+div.content1 {
+    width: 300px;
+    height: 200px;
+    background: black;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 212px;
+    left: 1120px;
+    font-size: 25px;
+}
+
+section#premium {
+    width: 100%;
+    height: 509px;
+    /* background: #252525; */
+    position: absolute;
+    top: 2500px;
+    left: 0;
+}
+
+div.hh2{
+    width: 1450px;
+    height: 100px;
+    /* background-color: green; */
+    text-align: center;
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 35px;
+}
+
+div.hh3{
+    width: 1450px;
+    height: 100px;
+    /* background-color: green; */
+    text-align: center;
+    color: black;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    font-size: 35px;
+}
+div.liveClass{
+    width: 1450px;
+    height: 300px;
+    text-align: center;
+    /* background-color: rgb(180, 137, 137); */
+    color: black;
+    position: absolute;
+    top: 240px;
+    left: 20px;
+    background-repeat: no-repeat;
+}
+
+div.live1{
+    width: 550px;
+    height: 300px;
+    background-size: 100%;
+    background-image: url("img/Live\ Online\ Classes.png");
+    text-align: center;
+    background-color: rgb(177, 177, 99);
+    position: absolute;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+div.liveInfo{
+    width: 860px;
+    height: 300px;
+    background-size: 100%;
+    text-align: left;
+    padding-left: 20px;
+    left: 570px;
+    background-color: rgb(101, 168, 101);
+    position: absolute;
+    background-repeat: no-repeat;
+    font-size: 33px;
+    border-radius: 10px;
+}
+
+div.structuredCourse{
+    width: 1450px;
+    height: 300px;
+    text-align: center;
+    /* background-color: rgb(180, 137, 137); */
+    color: black;
+    position: absolute;
+    top: 640px;
+    left: 20px;
+    background-repeat: no-repeat;
+}
+
+div.sc1{
+    width: 550px;
+    height: 300px;
+    /* background-size: 100%; */
+    background-image: url("img/login6.jpg");
+    background-size:cover;
+    text-align: center;
+    /* background-color: rgb(177, 177, 99); */
+    position: absolute;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+
+div.sc2{
+    width: 860px;
+    height: 300px;
+    background-size: 100%;
+    text-align: left;
+    padding-left: 20px;
+    left: 570px;
+    background-color: rgb(101, 168, 101);
+    position: absolute;
+    background-repeat: no-repeat;
+    font-size: 33px;
+    border-radius: 10px;
+
+}
+
+
+div.access{
+    width: 1450px;
+    height: 300px;
+    text-align: center;
+    /* background-color: rgb(180, 137, 137); */
+    color: black;
+    position: absolute;
+    top: 1040px;
+    left: 20px;
+    background-repeat: no-repeat;
+}
+
+div.acc1{
+    width: 550px;
+    height: 300px;
+    /* background-size: 100%; */
+    background-image: url("img/access.jpeg");
+    background-size:cover;
+    text-align: center;
+    /* background-color: rgb(177, 177, 99); */
+    position: absolute;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+
+div.acc2{
+    width: 860px;
+    height: 300px;
+    background-size: 100%;
+    text-align: left;
+    padding-left: 20px;
+    left: 570px;
+    background-color: rgb(101, 168, 101);
+    position: absolute;
+    background-repeat: no-repeat;
+    font-size: 33px;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,46 @@
+.content{
+    height: 1400px;
+    /* margin-top: 80px; */
+    overflow: hidden;
+}
+
+.content .pdf{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.content .pdf h1{
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+.content .pdf video{
+    /* margin-left: 200px; */
+    padding-top: 30px;
+}
+
+.content .pdf p{
+    margin-left: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content .pdf2 h1{
+    text-align: center;
+    
+}
+
+.content .pdf2 a{
+    margin-left: 450px;
+}
+
+.content .pdf controls{
+    color: black;
+}
+
+.content .pdf {
+    /* position: relative; */
+
+}
+
+

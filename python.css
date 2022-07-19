@@ -1,0 +1,22 @@
+.content{
+    height: 500px;
+}
+
+.content .pdf h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 70px;
+}
+
+.content .pdf a{
+    margin-top: 40px;
+    margin-left: 650px;
+    font-size: 35px;
+    padding: 0px 40px 0px 40px;
+    background-color: rgb(59, 97, 153);
+    display: inline;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}

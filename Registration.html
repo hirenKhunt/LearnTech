@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LearnTech | Registration </title>
+
+  <style>
+    body {
+      background-attachment: fixed;
+      background-image: url("img/login3.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    td {
+      color: snow;
+      font-size: 20px;
+      padding-left: 35px;
+    }
+
+    #submitbtn:hover {
+      background-color: rgb(65, 88, 42);
+    }
+
+    #submitbtn {
+      background-color: green;
+      color: white;
+      margin-bottom: 10px;
+      height: 30px;
+      width: 150px;
+      cursor: pointer;
+    }
+
+    #resetbtn:hover {
+      background-color: rgb(133, 74, 19);
+    }
+
+    #resetbtn {
+      background-color: rgb(151, 16, 16);
+      color: white;
+      margin-bottom: 10px;
+      height: 30px;
+      width: 200px;
+      cursor: pointer;
+    }
+  </style>
+
+</head>
+
+<body>
+  <form method="get" action="register.php" onSubmit="return validateForm()" target="_blank" id="myform">
+
+    <table
+      style="background-color: rgb(18, 19, 20);margin-left: 500px; border-color: rgb(192, 134, 46); border-width: 7px; border-style: inset;"
+      width="500" height="640" rules=none frame=box align="center" cellspacing="5" cellpadding="5">
+      <caption style="color: white;">
+        <h1>Registration Form</h1>
+      </caption>
+      <!-- <tr>
+            <td colspan="2" align="center" > <b>Registration Form</b></td>
+            
+          </tr> -->
+      <tr>
+        <td><b>Username</b></td>
+        <td><input type="text" name="uid" placeholder="Enter your username" required /></td>
+      </tr>
+
+      <tr>
+        <td><b>Password</b></td>
+        <td><input type="password" name="pwd" placeholder="Enter your password"
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+            required /></td>
+      </tr>
+      <tr>
+        <td><b>Re-type password</b></td>
+        <td><input type="password" name="pwd2" placeholder="Enter your password again" required />
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>Name</b></td>
+        <td><input type="text" name="name" placeholder="Enter your name" required /></td>
+      </tr>
+
+      <tr>
+        <td><b>Surname</b></td>
+        <td><input tyoe="text" name="sname" placeholder="Enter your surname" </td>
+      </tr>
+      <tr>
+        <td><b>Gender</b></td>
+        <td>Male<input type="radio" name="gender" value="male" checked /> Female<input type="radio" name="gender"
+            value="female" /> Other<input type="radio" name="gender" value="other" /></td>
+      </tr>
+
+      <!-- <tr>
+            <td><b>Age</b></td>
+            <td> <input type="number" name ="age" placeholder="Enter your age"/></td>
+          </tr> -->
+
+      <tr>
+        <td><b>Date of Birth</b></td>
+        <td><input type="date" name="dob" placeholder="Date of Birth" required></td>
+
+      </tr>
+
+      <!-- <tr>
+            <td><b>Hobby</b></td>
+            <td> Cricket<input type="checkbox" name="hobby" value="cricket"/> Dance<input
+     type="checkbox" name="hobby" value="dance"/> Singing<input type="checkbox" name="hobby" value="singing"/></td>
+          </tr> -->
+
+      <tr>
+        <td><b>Email</b></td>
+        <td><input type="email" name="email" placeholder="Enter your Email" required /></td>
+      </tr>
+      <tr>
+        <td><b>Contact</b></td>
+        <td><input type="phone" name="contactno"
+            pattern="((\+*)((0[ -]*)*|((91 )*))((\d{10})+|(\d{10})+))|\d{5}([- ]*)\d{5}"
+            placeholder="Enter your mobile number" title="Must contain at least 10 digit from 0 to 9" required />
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>Address</b></td>
+        <td><input type="textarea" name="address" placeholder="Enter your address" /></td>
+      </tr>
+
+      <tr>
+        <td><b>City</b>
+        <td><input type="text" name="city" placeholder="Enter your city"></td>
+        </td>
+      </tr>
+
+      <!-- <tr>
+            <td><b>City</b></td>
+            <td>
+            <select name="city" id="city">
+            <option value="city">Select your  city</option>
+            <option value="junagadh">junagadh</option>
+            <option value="Rajkot">Rajkot</option>
+            <option value="surat">surat</option>
+            <option value="ahmedabad">ahmedabad</option>
+                
+            </select>
+             </td>
+          </tr> -->
+
+      <tr>
+        <td><b>Zip code</b></td>
+        <td><input type="text" name="zip" placeholder="Enter your zipcode" pattern="^[1-9][0-9]{5}$"
+            title="Must contain at least 6 digit from 0 to 9 and first digit must not be 0" /></td>
+      </tr>
+      <tr>
+        <td><input id="submitbtn" type="submit" name="submit" value="Submit" /></td>
+        <td><input id="resetbtn" type="reset" name="reset" value="Reset" </td>
+      </tr>
+    </table>
+
+
+  </form>
+</body>
+
+<script>
+
+  function validateForm() {
+    var pass1 = document.forms['myform']["pwd"].value;
+    var pass2 = document.forms['myform']["pwd2"].value;
+
+    if (pass1 != pass2) {
+      return false;
+    }
+    return true;
+  }
+
+</script>
+
+
+</html>
